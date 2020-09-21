@@ -7,5 +7,9 @@ public class Converter {
         return input.toUpperCase();
     }
 
+    public static String LowercaseString(String input) {
+        return input.toLowerCase();
+    }
+
 
 }

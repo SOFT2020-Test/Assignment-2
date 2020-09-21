@@ -17,4 +17,11 @@ class ConverterTest {
         String expected = "ABC";
         assertEquals(expected, result);
     }
+
+    @Test
+    void lowercaseString() {
+        String result = Converter.LowercaseString("ABC1,DEF2");
+        String expected = "abc1,def2";
+        assertEquals(expected, result);
+    }
 }
