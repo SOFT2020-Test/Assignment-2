@@ -21,5 +21,8 @@
 | -------------     |-------------------------------------------                        |
 | **@Tag**          | Used to tag classes for filtering                                 |
 | **@Disabled**     | Used to disable a test class or method                            |
-| **RepeatedTest**  | Indicates that a method is a test template for a repeated class   |
-| **BeforeEach, @AfterEach** | **BeforeEach** should be executed before each **@Test**. **AfterEach** should be executed after each **@Test** |
+| **@RepeatedTest**  | Indicates that a method is a test template for a repeated class   |
+| **@BeforeEach, @AfterEach** | **BeforeEach** should be executed before each **@Test**. **AfterEach** should be executed after each **@Test** |
+| **@DisplayName** | Used for defining a custom display name for the test class or method |
+| **@Nested** | Indicates that the class is a non-static nested test class |
+| **assumeFalse, assumeTrue** | **assumeTrue()** If called with an expression evaluating to false, the test will halt and be ignored. **assumeFalse()** is the inverse of **assumeTrue()** |
