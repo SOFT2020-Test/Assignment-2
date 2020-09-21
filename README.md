@@ -17,8 +17,7 @@
 #Investigation Tools
 ## JUnit 5
 **Investigate JUnit 5 (Jupiter). Explain the following, and how they are useful:**
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
+| Annotations        | Usage                                |
+| ------------- |-------------------------------------------|
+| **@Tag**      | Used to tag classes for filtering         |
+| **@Disabled** | Used to disabled a test class or method   |
