@@ -17,7 +17,7 @@
 #Investigation Tools
 ## JUnit 5
 **Investigate JUnit 5 (Jupiter). Explain the following, and how they are useful:**
-| Annotations        | Usage                                |
-| ------------- |-------------------------------------------|
-| **@Tag**      | Used to tag classes for filtering         |
-| **@Disabled** | Used to disabled a test class or method   |
+| Annotations       | Usage                                     |
+| :-------------:   |-------------------------------------------|
+| **@Tag**          | Used to tag classes for filtering         |
+| **@Disabled**     | Used to disabled a test class or method   |
