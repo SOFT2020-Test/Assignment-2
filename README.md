@@ -26,3 +26,13 @@
 | **@DisplayName** | Used for defining a custom display name for the test class or method |
 | **@Nested** | Indicates that the class is a non-static nested test class |
 | **assumeFalse, assumeTrue** | **assumeTrue()** If called with an expression evaluating to false, the test will halt and be ignored. **assumeFalse()** is the inverse of **assumeTrue()** |
+
+## Mocking Frameworks
+**Investigate mocking frameworks for your preferred language. Choose at least
+two frameworks, and answer the questions. (One could be Mockito, which
+we saw in class.)**  
+**What are their similarities?**  
+**What are their differences?**  
+**Which one would you prefer, if any, and why?**  
+
+
