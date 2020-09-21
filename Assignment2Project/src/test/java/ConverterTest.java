@@ -1,13 +1,14 @@
+import junit.framework.TestCase;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class ConverterTest {
+class ConverterTest extends TestCase {
 
     @Test
     void reverseString() {
-        String result = Converter.ReverseString("ABC");
-        String expected = "CBA";
+        String result = Converter.ReverseString("ABC1");
+        String expected = "1CBA";
         assertEquals(expected, result);
     }
 
