@@ -55,7 +55,8 @@ we saw in class.)**
 
 ### Mockito or EasyMock
 1. **Simlarities**
-Mockito allow the same level verification as EasyMock. They are essentially the same mocking framework, but EasyMock is built in a way that makes it easier to setup tests, however 
+Mockito allow the same level verification as EasyMock. They are essentially the same mocking framework, but EasyMock is built in a way that makes it easier to setup tests.
+
 
 2. **Differences**  
 
@@ -65,7 +66,8 @@ Mockito allow the same level verification as EasyMock. They are essentially the 
 | Mocked method calls     | To mock we use `Mockito.when(mock.method(args)).thenReturn(value)`  | In EasyMock, the `EasyMock.expect(mock.method(args)).andReturn(Value)` method for mocking a method call.
 | Verifying Calls         | In Mockito, `verify(mock).method(args)` is used to verify calls | In EasyMock, `EasyMock.verify(mock)` is used for verifying calls to a mock. |
 | Exception throwing      | To throw execptions, the `.thenThrow(ExceptionClass.class)` is used after calling the `Mockito.when(mock.method(args))` method | To throw exceptions, `.andThrow(new ExceptionClass())` is used after calling `EasyMock.expect(..)` |
+| Accessibility | In addition, Mockito can also mock `private` and `final` methods. | EasyMock cannot mock `final` and `private` methods
 
-In conclusion they are fairly similar, with the biggest difference being EasyMock not supporting spies.
+In conclusion they are fairly similar, with the biggest difference being EasyMock not supporting spies and private/final methods.
 
 
