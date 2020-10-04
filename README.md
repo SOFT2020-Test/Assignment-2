@@ -19,7 +19,7 @@
 ### Catastrophe failure
 **Find a story where a software system defect had a bad outcome. Describe what happened. Can you identify a test that would have prevented it?**
 In 2018, Hawaii accidentally broadcasted a country-wide MISSLILE-EMERGENCY-ALERT due to a poorly designed software interface.
-(Image)[https://www.extremetech.com/wp-content/uploads/2018/01/Mis-Click.jpg]
+(Image)[hawaii-missile.jpg]
 
 
 #Investigation Tools
