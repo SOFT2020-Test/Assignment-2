@@ -7,12 +7,20 @@
   
 ### Computer Mouse 
 **Identify the types of testing you would perform on a computer mouse, to make sure that it is of the highest quality.**  
-...
+
+1. Does the mouse detects movement correctly (on the X and Y axis).
+2. Stresstest all the buttons and see if they still works after a thousand clicks on each button.
+3. Does the scroll-wheel still work after continious stress testing and after scrolling for X-amount of miles. 
+4. Does the scroll-wheel detect clicks when pressing down on the wheel.
+5. Is the mouse cabable of detecting click and movement at the same time.
+6. Is the mouse cabable of detecting scroll and movement at the same time.
   
   
 ### Catastrophe failure
 **Find a story where a software system defect had a bad outcome. Describe what happened. Can you identify a test that would have prevented it?**
-....
+In 2018, Hawaii accidentally broadcasted a country-wide MISSLILE-EMERGENCY-ALERT due to a poorly designed software interface.
+(Image)[https://www.extremetech.com/wp-content/uploads/2018/01/Mis-Click.jpg]
+
 
 #Investigation Tools
 ## JUnit 5
