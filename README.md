@@ -59,7 +59,7 @@ Mockito allow the same level verification as EasyMock. They are essentially the 
 
 2. **Differences**  
 
-|                         | Mockito                                              | EasyMock
+|      xxxxxxxxxxxx                   | Mockito                                              | EasyMock
 | -------------           |-------------------------------------------           | ---------------------------
 | Support test spies      | Mockito support both mock as well as spies           | EasyMock only supports mocks
 | Mocked method calls     | Mockito.when(mock.method(args)).thenReturn(value) method for mocking a method calls. | In EasyMock, the EasyMock.expect(mock.method(args)).andReturn(Value) method for mocking a method call.
