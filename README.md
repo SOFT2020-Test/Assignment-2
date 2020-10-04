@@ -49,9 +49,9 @@ I would have make the process automatic instead of manual, and then added a test
 **Investigate mocking frameworks for your preferred language. Choose at least
 two frameworks, and answer the questions. (One could be Mockito, which
 we saw in class.)**  
-***What are their similarities?**  
-**What are their differences?**  
-**Which one would you prefer, if any, and why?***
+***- What are their similarities?**  
+**- What are their differences?**  
+**- Which one would you prefer, if any, and why?***
 
 
 
