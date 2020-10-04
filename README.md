@@ -53,7 +53,13 @@ we saw in class.)**
 **- What are their differences?**  
 **- Which one would you prefer, if any, and why?***
 
-### Mockito or EasyMock? Which one to choose.
-#### asd
+### Mockito or EasyMock
+1. **Simlarities**
+Mockito allow the same level verification as EasyMock. They are essentially the same mocking framework, but EasyMock is built in a way that makes it easier to setup tests, however 
+
+2. **Differences**
+| x  | Mockito | EasyMock |
+| -- | ------- | -------- |
+| License | The Mockito framework is released under the MIT License | EasyMock is released under Apache License |
 
 
