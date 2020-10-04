@@ -57,9 +57,9 @@ we saw in class.)**
 1. **Simlarities**
 Mockito allow the same level verification as EasyMock. They are essentially the same mocking framework, but EasyMock is built in a way that makes it easier to setup tests, however 
 
-2. **Differences**
-| x  | Mockito | EasyMock |
-| -- | ------- | -------- |
-| License | The Mockito framework is released under the MIT License | EasyMock is released under Apache License |
+2. **Differences**  
+| x                 | Mockito                                       | EasyMock
+| -------------     |-------------------------------------------    | ---------------------------
+| **@Tag**          | asda            | asdas
 
 
